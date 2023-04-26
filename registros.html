@@ -14,12 +14,15 @@
         #edit{
             width: 50%;
         }
+        .section{
+            overflow:scroll ;
+        }
     </style>
     <script src="https://kit.fontawesome.com/68c96041c8.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <header class="row py-4 bg-secondary">
             <div class="col-12 text-center">
                 <h2>Lista de Registrados</h2>
@@ -33,11 +36,11 @@
             <hr>
         </nav>
         <main class="main">
-            <section class="row">
+            <section class="row section">
                 <table class="table table-secondary table-striped w-75 mx-auto text-center">
                     <thead>
                         <tr>
-                          <th scope="col">#</th>
+                          <th scope="col">id</th>
                           <th scope="col">Nombre</th>
                           <th scope="col">Edad</th>
                           <th scope="col">Telefono</th>
@@ -48,15 +51,8 @@
                         </tr>
                       </thead>
                       <tbody data-tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>38</td>
-                            <td>31567834</td>
-                            <td>Campana</td>
-                            <td><a href="/editable.html"><i class="fa-solid fa-pencil"></i></a></td>
-                            <td><button class=" border border-0"><i class="fa-solid fa-trash"></i></button></td>
-                        </tr>
+                        
+                        
                       </tbody>
                   </table>
             </section>
@@ -66,6 +62,7 @@
             </footer>
         </main>
     </div>
-    
+    <script src="/server.js"></script>
+    <script type="module" src="/registros.js"></script>
 </body>
 </html>

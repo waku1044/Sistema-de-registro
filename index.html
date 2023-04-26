@@ -9,8 +9,12 @@
     <style>
         main{
             background-image: url('https://tse1.mm.bing.net/th?id=OIP.J4urcoE5BTjXfdoa7Zn_nAAAAA&pid=Api&P=0');
-
         }
+        .btn{
+            letter-spacing: .2rem;
+            text-shadow: 3px 3px 5px #444;
+        }
+
     </style>
 </head>
 <body>
@@ -29,11 +33,11 @@
         </nav>
         <main class="main">
             <section class="row">
-                    <form action="" class="form-control w-50 mx-auto bg-secondary d-flex flex-column gap-2 py-3 shadow">
-                        <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
-                        <input class="form-control" type="number" placeholder="Edad" aria-label="default input example">
-                        <input class="form-control" type="number" placeholder="Telefono" aria-label="default input example">
-                        <input class="form-control" type="text" placeholder="Localidad" aria-label="default input example">
+                    <form action="" class="form-control w-50 mx-auto bg-secondary d-flex flex-column gap-2 py-3 shadow" data-form>
+                        <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example" data-nombre>
+                        <input class="form-control" type="number" maxlength="2" placeholder="Edad" aria-label="default input example" data-edad>
+                        <input class="form-control" type="number" placeholder="Telefono" aria-label="default input example" data-telefono>
+                        <input class="form-control" type="text" placeholder="Localidad" aria-label="default input example" data-localidad>
                         <button class="btn btn-primary fw-bold">Agregar</button>
                     </form>
             </section>
@@ -43,6 +47,6 @@
             </footer>
         </main>
     </div>
-    
+    <script  src="index.js"></script>
 </body>
 </html>

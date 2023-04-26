@@ -1,0 +1,19 @@
+{
+   "perfil":
+    [
+      {
+      "id": 1,
+      "nombre": "Walter",
+      "edad": 38,
+      "telefono": 3489558201,
+      "localidad":"Campana"
+    },
+    {
+      "id": 2,
+      "nombre": "Fedra",
+      "edad": 36,
+      "telefono": 3489499024,
+      "localidad":"Campana"
+    }
+  ]
+}
