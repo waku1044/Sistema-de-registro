@@ -9,7 +9,7 @@
     <style>
         main{
             background-image: url('https://tse1.mm.bing.net/th?id=OIP.J4urcoE5BTjXfdoa7Zn_nAAAAA&pid=Api&P=0');
-
+            min-height:255px;
         }
         .btn{
             letter-spacing: .2rem;
@@ -33,20 +33,21 @@
         </nav>
         <main class="main">
             <section class="row">
-                    <form action="" class="form-control w-50 mx-auto bg-secondary d-flex flex-column gap-2 py-3 shadow">
-                        <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
-                        <input class="form-control" type="number" placeholder="Edad" aria-label="default input example">
-                        <input class="form-control" type="number" placeholder="Telefono" aria-label="default input example">
-                        <input class="form-control" type="text" placeholder="Localidad" aria-label="default input example">
+                    <form action="" class="form-control w-50 mx-auto bg-secondary d-flex flex-column gap-2 py-3 shadow" data-formulario>
+                        <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example" data-nombre>
+                        <input class="form-control" type="email" placeholder="Email" aria-label="default input example" data-email>
+                        <input class="form-control" type="number" placeholder="Telefono" aria-label="default input example" data-phone>
+                        <input class="form-control" type="text" placeholder="Localidad" aria-label="default input example" data-localidad>
                         <button class="btn btn-primary fw-bold">Editar</button>
                     </form>
             </section>
-            <footer class="footer text-center py-2 mt-5 bg-secondary">
-                <p class="fw-bold">Sistema de registro On the wall</p>
-                <p>&copy Todos los derechos reservados, 2023.</p>
-            </footer>
         </main>
+        <footer class="row footer text-center py-2 mt-5 bg-secondary">
+            <p class="fw-bold">Sistema de registro On the wall</p>
+            <p>&copy Todos los derechos reservados, 2023.</p>
+        </footer>
     </div>
+    <script type="module" src="./controller/editable_controller.js"></script>
     
 </body>
 </html>

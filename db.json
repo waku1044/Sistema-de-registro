@@ -1,19 +1,18 @@
 {
-   "perfil":
-    [
-      {
-      "id": 1,
-      "nombre": "Walter",
-      "edad": 38,
-      "telefono": 3489558201,
-      "localidad":"Campana"
+  "perfil": [
+    {
+      "nombre": "walterio",
+      "email": "walter@gmail.com",
+      "telefono": "3489558201",
+      "localidad": "campana",
+      "id": "8ab3acb0-a682-4118-ae41-2453b750096e"
     },
     {
-      "id": 2,
-      "nombre": "Fedra",
-      "edad": 36,
-      "telefono": 3489499024,
-      "localidad":"Campana"
+      "nombre": "fedra",
+      "email": "fedra@gmail.com",
+      "telefono": "3489499024",
+      "localidad": "campana",
+      "id": "34f03b8b-35dd-4a9d-8225-dc334e5405a9"
     }
   ]
 }

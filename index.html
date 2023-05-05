@@ -9,6 +9,7 @@
     <style>
         main{
             background-image: url('https://tse1.mm.bing.net/th?id=OIP.J4urcoE5BTjXfdoa7Zn_nAAAAA&pid=Api&P=0');
+            min-height:255px;
         }
         .btn{
             letter-spacing: .2rem;
@@ -34,19 +35,20 @@
         <main class="main">
             <section class="row">
                     <form action="" class="form-control w-50 mx-auto bg-secondary d-flex flex-column gap-2 py-3 shadow" data-form>
-                        <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example" data-nombre>
-                        <input class="form-control" type="number" maxlength="2" placeholder="Edad" aria-label="default input example" data-edad>
-                        <input class="form-control" type="number" placeholder="Telefono" aria-label="default input example" data-telefono>
-                        <input class="form-control" type="text" placeholder="Localidad" aria-label="default input example" data-localidad>
-                        <button class="btn btn-primary fw-bold">Agregar</button>
+                        <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example" required data-nombre>
+                        <input class="form-control" type="email"  placeholder="Email" aria-label="default input example" required data-email>
+                        <input class="form-control" type="number" placeholder="Telefono" aria-label="default input example" required data-telefono>
+                        <input class="form-control" type="text" placeholder="Localidad" aria-label="default input example" required data-localidad>
+                        <button class="btn btn-primary fw-bold">Registrar</button>
                     </form>
             </section>
-            <footer class="footer text-center py-2 mt-5 bg-secondary">
-                <p class="fw-bold">Sistema de registro On the wall</p>
-                <p>&copy Todos los derechos reservados, 2023.</p>
-            </footer>
         </main>
+        <footer class="row footer text-center py-2 mt-5 bg-secondary">
+            <p class="fw-bold">Sistema de registro On the wall</p>
+            <p>&copy Todos los derechos reservados, 2023.</p>
+        </footer>
     </div>
-    <script  src="index.js"></script>
+    <script type="module" src="/controller/registro.controller.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
 </body>
 </html>
