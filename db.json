@@ -13,6 +13,20 @@
       "telefono": "3489499024",
       "localidad": "campana",
       "id": "34f03b8b-35dd-4a9d-8225-dc334e5405a9"
+    },
+    {
+      "nombre": "Ramon",
+      "email": "ramon@gmail.com",
+      "telefono": "123456",
+      "localidad": "Zarate",
+      "id": "a66b4510-aae5-4328-b476-56715a906735"
+    },
+    {
+      "nombre": "Roberto Piazza",
+      "email": "roberto@gmail.com",
+      "telefono": "234567",
+      "localidad": "Pilar",
+      "id": "fd5d504b-bcb4-4317-ada2-5135d8aca47c"
     }
   ]
 }
