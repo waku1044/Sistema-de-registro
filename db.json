@@ -1,25 +1,18 @@
 {
   "perfil": [
     {
-      "nombre": "walterio",
+      "nombre": "walter",
       "email": "walter@gmail.com",
       "telefono": "3489558201",
       "localidad": "campana",
       "id": "8ab3acb0-a682-4118-ae41-2453b750096e"
     },
     {
-      "nombre": "fedra",
+      "nombre": "fedrosky",
       "email": "fedra@gmail.com",
       "telefono": "3489499024",
       "localidad": "campana",
       "id": "34f03b8b-35dd-4a9d-8225-dc334e5405a9"
-    },
-    {
-      "nombre": "Ramon",
-      "email": "ramon@gmail.com",
-      "telefono": "123456",
-      "localidad": "Zarate",
-      "id": "a66b4510-aae5-4328-b476-56715a906735"
     },
     {
       "nombre": "Roberto Piazza",
@@ -27,6 +20,48 @@
       "telefono": "234567",
       "localidad": "Pilar",
       "id": "fd5d504b-bcb4-4317-ada2-5135d8aca47c"
+    },
+    {
+      "nombre": "Mateico",
+      "email": "mateico@hotmail.com",
+      "telefono": "7899456",
+      "localidad": "Zarate",
+      "id": "d87da6c7-b64a-4d2c-8b31-a2da27e302a4"
+    },
+    {
+      "nombre": "walter",
+      "email": "walter@hotmail.com",
+      "telefono": "123321",
+      "localidad": "campana",
+      "id": "5c88d582-3cfb-4a24-ae3d-f0ede2fe0f0e"
+    },
+    {
+      "nombre": "jugate conmigo",
+      "email": "jugate@hotmail.com",
+      "telefono": "234432",
+      "localidad": "zarate",
+      "id": "ea397ceb-b8fa-4517-b8a6-c3124b2576b9"
+    },
+    {
+      "nombre": "antonio",
+      "email": "antonio@hotmail.com",
+      "telefono": "345543",
+      "localidad": "pilar",
+      "id": "0551da00-b9c4-491a-bc07-89df7c4bdee0"
+    },
+    {
+      "nombre": "criollitas",
+      "email": "criollitas@hotmail.com",
+      "telefono": "456654",
+      "localidad": "florencio varela",
+      "id": "56be2f0a-a117-4c72-9e51-f7976efbde51"
+    },
+    {
+      "nombre": "oaky",
+      "email": "oaky@hotmail.com",
+      "telefono": "234432",
+      "localidad": "ledesma",
+      "id": "40d0292f-26d2-4097-adfa-364f74d3d17b"
     }
   ]
 }

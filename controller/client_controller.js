@@ -6,10 +6,10 @@ const tbody = document.querySelector('[data-tbody]');
         let tr = document.createElement('tr');
         tr.classList.add('parent');
         let template = `<th scope="row">${++num}</th>
-        <td>${nombre}</td>
+        <td class="text-capitalize">${nombre}</td>
         <td>${email}</td>
         <td>${telefono}</td>
-        <td>${localidad}</td>
+        <td class="text-capitalize">${localidad}</td>
         <td class="btn_editable"><a href='/editable.html?id=${id}'><i class="fa-solid fa-pencil" data-btn-edit></i></a></td>
         <td class="btn_borrar"><i class="fa-sharp fa-solid fa-trash" id='${id}' data-btn-borrar></i></td>`
         

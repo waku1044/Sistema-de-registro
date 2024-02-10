@@ -1,0 +1,32 @@
+{
+  "perfil": [
+    {
+      "nombre": "walter",
+      "email": "walter@gmail.com",
+      "telefono": "3489558201",
+      "localidad": "campana",
+      "id": "8ab3acb0-a682-4118-ae41-2453b750096e"
+    },
+    {
+      "nombre": "fedrosky",
+      "email": "fedra@gmail.com",
+      "telefono": "3489499024",
+      "localidad": "campana",
+      "id": "34f03b8b-35dd-4a9d-8225-dc334e5405a9"
+    },
+    {
+      "nombre": "Roberto Piazza",
+      "email": "roberto@gmail.com",
+      "telefono": "234567",
+      "localidad": "Pilar",
+      "id": "fd5d504b-bcb4-4317-ada2-5135d8aca47c"
+    },
+    {
+      "nombre": "Mateico",
+      "email": "mateico@hotmail.com",
+      "telefono": "7899456",
+      "localidad": "Zarate",
+      "id": "d87da6c7-b64a-4d2c-8b31-a2da27e302a4"
+    }
+  ]
+}
